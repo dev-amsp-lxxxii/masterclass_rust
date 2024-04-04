@@ -1,6 +1,6 @@
 mod utils;
 
-use utils::terminal::{limpar_tela, esperar_enter};
+use utils::terminal::{esperar_enter, limpar_tela};
 
 fn main() {
     println!("Hello, world!");
