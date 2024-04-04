@@ -1,13 +1,11 @@
 fn main() {
     // Regras de Ownership
-    // Quando se trabalha na heap o valor da variável pertencerá apenas a uma variável
 
     let nome: String = String::from("Rust");
-    // Transferência de posse do valor da variável #nome para #new_nome
-    let new_nome: String = nome;
+    // podemos usar as duas variáves com mesmo valor usando o .clone()
+    // assim será feito uma referência
+    let new_nome: String = nome.clone();
 
-    // println!("Nome -> {}", nome); -> da erro, pois o valor não pertence mais a variável nome.
+    println!("Nome -> {}", nome); // Não deu erro, pois se utilizou o clone na variável new_nome
     println!("Nome -> {}", new_nome);
-
-    // A posse verticalmente e sequêncial
 }
