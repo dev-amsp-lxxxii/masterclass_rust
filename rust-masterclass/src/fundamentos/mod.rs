@@ -22,6 +22,9 @@ pub fn executar() {
         match selecionado {
             1 => primeiro::exemplo(),
             2 => variaveis::imutaveis(),
+            3 => variaveis::mutaveis(),
+            4 => variaveis::constante(),
+            5 => variaveis::shadowing(),
             _ => break,
         }
 
