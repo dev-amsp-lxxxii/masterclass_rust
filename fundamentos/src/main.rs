@@ -1,11 +1,10 @@
 fn main() {
-    // Regras de Ownership
+    // Espaços diferentes na Stack
+    let lista_a = [1, 2, 3, 4, 5];
+    let lista_b = lista_a; // copy
 
-    let nome: String = String::from("Rust");
-    // podemos usar as duas variáves com mesmo valor usando o .clone()
-    // assim será feito uma referência
-    let new_nome: String = nome.clone();
-
-    println!("Nome -> {}", nome); // Não deu erro, pois se utilizou o clone na variável new_nome
-    println!("Nome -> {}", new_nome);
+    // Neste caso tamanhos fixo, então está sendo
+    // trabalhado na stack
+    println!("{:?}", lista_a);
+    println!("{:?}", lista_b);
 }
