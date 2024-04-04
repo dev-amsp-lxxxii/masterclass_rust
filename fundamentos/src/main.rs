@@ -1,15 +1,15 @@
 fn main() {
-    teste_a();
+    // Heap
+    let nome: String = String::from("Rust");
+    // Stack
+    let idade: i32 = 32;
+
+    println!("Nome -> {}", nome);
+    // println!("Idade -> {}", idade);
+    exibir_idade(&idade);
 }
 
-fn teste_a() {
-    teste_b();
+// Stack
+fn exibir_idade(idade: &i32) {
+    println!("Idade -> {}", idade);
 }
-
-fn teste_b() {
-    println!("{}", 123);
-}
-
-// Pilha: 1 - main(), 2 - teste_a(), 3 - teste_b()
-// Stack - LiFo
-// Todos os dados que tem tamanho fixo serão colocados na stack
