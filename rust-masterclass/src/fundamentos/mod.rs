@@ -1,3 +1,6 @@
+mod primeiro;
+mod variaveis;
+
 use crate::utils::terminal::{esperar_enter, exibir_menu, limpar_tela};
 
 pub fn executar() {
@@ -17,7 +20,8 @@ pub fn executar() {
         limpar_tela();
 
         match selecionado {
-            1 => println!("Fundamentos - 1"),
+            1 => primeiro::exemplo(),
+            2 => variaveis::imutaveis(),
             _ => break,
         }
 
