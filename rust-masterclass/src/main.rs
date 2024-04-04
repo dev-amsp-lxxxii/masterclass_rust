@@ -1,8 +1,9 @@
+mod fundamentos;
 mod utils;
 
 use std::process::exit;
 
-use utils::terminal::{esperar_enter, exibir_menu, limpar_tela};
+use utils::terminal::{exibir_menu, limpar_tela};
 
 fn main() {
     loop {
@@ -12,13 +13,12 @@ fn main() {
 
         limpar_tela();
         match selecionado {
-            1 => println!("1"),
+            1 => fundamentos::executar(),
             2 => println!("2"),
             3 => println!("3"),
             4 => println!("4"),
             5 => println!("5"),
             _ => exit(0),
         }
-        esperar_enter();
     }
 }
