@@ -1,0 +1,1 @@
+/home/adelmo/dev_estudo/masterclass_rust/rust-masterclass/target/debug/rust-masterclass: /home/adelmo/dev_estudo/masterclass_rust/rust-masterclass/src/main.rs /home/adelmo/dev_estudo/masterclass_rust/rust-masterclass/src/utils/mod.rs /home/adelmo/dev_estudo/masterclass_rust/rust-masterclass/src/utils/terminal.rs
