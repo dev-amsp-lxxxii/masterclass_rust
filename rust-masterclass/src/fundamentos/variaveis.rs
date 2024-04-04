@@ -12,3 +12,8 @@ pub fn mutaveis() {
     x = 15;
     println!("x, y => {}, {}", x, y);
 }
+
+pub fn constante() {
+    const Z: i32 = 20;
+    println!("O valor de Z é: {}", Z);
+}
