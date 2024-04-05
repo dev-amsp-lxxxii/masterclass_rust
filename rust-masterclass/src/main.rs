@@ -2,6 +2,8 @@ mod fundamentos;
 mod utils;
 mod tipos;
 mod controle;
+mod funcoes;
+mod ownership;
 
 use std::process::exit;
 
@@ -18,8 +20,8 @@ fn main() {
             1 => fundamentos::executar(),
             2 => tipos::executar(),
             3 => controle::executar(),
-            4 => println!("4"),
-            5 => println!("5"),
+            4 => funcoes::executar(),
+            5 => ownership::executar(),
             _ => exit(0),
         }
     }
