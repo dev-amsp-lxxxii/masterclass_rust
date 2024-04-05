@@ -26,6 +26,9 @@ pub fn executar() {
             3 => variaveis::mutaveis(),
             4 => variaveis::constante(),
             5 => variaveis::shadowing(),
+            6 => operadores::aritmeticos(),
+            7 => operadores::relacionais(),
+            8 => operadores::logicos(),
             _ => break,
         }
 
