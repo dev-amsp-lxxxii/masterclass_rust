@@ -1,1 +1,1 @@
-pub fn custom() {}
+pub fn exemplo() {}

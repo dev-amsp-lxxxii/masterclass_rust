@@ -1,5 +1,6 @@
 mod fundamentos;
 mod utils;
+mod tipos;
 
 use std::process::exit;
 
@@ -14,7 +15,7 @@ fn main() {
         limpar_tela();
         match selecionado {
             1 => fundamentos::executar(),
-            2 => println!("2"),
+            2 => tipos::executar(),
             3 => println!("3"),
             4 => println!("4"),
             5 => println!("5"),

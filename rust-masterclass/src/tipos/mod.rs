@@ -12,16 +12,19 @@ pub fn executar() {
             "Custom - Structs",
             "Custom - Enums",
         ];
-    }
-    limpar_tela();
 
-    match selecionado {
-        1 => basicos::exemplo(),
-        2 => custom::exemplo(),
-        3 => sequencias::exemplo_struct(),
-        4 => sequencias::exemplo_enum(),
-        _ => break,
-    }
+        let selecionado = exibir_menu("Tipos", &itens, false);
 
-    esperar_enter();
+        limpar_tela();
+
+        match selecionado {
+            1 => basicos::exemplo(),
+            2 => custom::exemplo(),
+            3 => sequencias::exemplo_struct(),
+            4 => sequencias::exemplo_enum(),
+            _ => break,
+        }
+
+        esperar_enter();
+    }
 }
