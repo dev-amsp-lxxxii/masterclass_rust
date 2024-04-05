@@ -19,9 +19,9 @@ pub fn executar() {
 
         match selecionado {
             1 => basicos::exemplo(),
-            2 => custom::exemplo(),
-            3 => sequencias::exemplo_struct(),
-            4 => sequencias::exemplo_enum(),
+            2 => sequencias::exemplo(),
+            3 => custom::exemplo_struct(),
+            4 => custom::exemplo_enum(),
             _ => break,
         }
 

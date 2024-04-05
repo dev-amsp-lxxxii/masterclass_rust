@@ -1,1 +1,5 @@
-pub fn exemplo() {}
+
+
+pub fn exemplo_struct() {}
+
+pub fn exemplo_enum() {}
