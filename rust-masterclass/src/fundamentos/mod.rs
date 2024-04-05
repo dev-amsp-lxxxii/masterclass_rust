@@ -1,5 +1,6 @@
 mod primeiro;
 mod variaveis;
+mod operadores;
 
 use crate::utils::terminal::{esperar_enter, exibir_menu, limpar_tela};
 
