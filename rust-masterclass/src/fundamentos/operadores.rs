@@ -20,3 +20,12 @@ pub fn relacionis() {
     println!("x >= y = {}", x >= y);
     println!("x <= y = {}", x <= y);
 }
+
+pub fn logicos() {
+    let x = true;
+    let y = false;
+
+    println!("x && y = {}", x && y);
+    println!("x || y = {}", x || y);
+    println!("!x = {}", !x);
+}
