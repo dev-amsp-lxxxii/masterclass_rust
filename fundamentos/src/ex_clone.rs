@@ -11,5 +11,6 @@ fn ex_clone() {
         println!("Nome -> {}", nome); // Não deu erro, pois se utilizou o clone na variável new_nome
         println!("Nome -> {}", new_nome);
     }
+	teste
      */
 }
